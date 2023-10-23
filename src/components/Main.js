@@ -13,6 +13,7 @@ export default function Main(props){
                 item={cartItems.find((x)=> x.id === product.id)}
                 onAdd={onAdd}
                 onRemove={onRemove}
+
                 >
                 {product.name}
                 
